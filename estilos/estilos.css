@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    background: url(../imagens/bg.png);
+    margin: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.detalhe-topo hr{
+    margin: 10px 10px 10px 80px;
+    width: 360px;
+}
+
+.detalhe-topo p{
+    margin: 0px 60px 0px 0px;
+}
+
+#lista-topo a, #lista-topo a:visited{
+    color: #796b27;
+    display: block;
+    width: 110px;
+    padding: 6px;
+}
+
+#depoimento{
+    position: absolute;
+    right: 10px;
+    top: 60px;
+}
+
+#lista-topo a:hover{
+    color: #796b27;
+    background-color: #c7b663;
+    
+    
+}
+
+.detalhe-topo {
+    text-align: center;
+    color: #796b27;
+    font-size: 12px;
+}
+
+#lista-topo{
+    margin: 10px 0px 0px 80px;
+
+}
+
+
+
+#botao-topo{
+    background-color: #796b27;
+    padding: 5px 15px 5px 15px;
+    margin-left: 60px;
+    text-align: right;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 17px;
+    color: #ede9cc;
+}
+
+#botao-topo:hover{
+    background-color: #aa9a4a;
+}
+
+#container{
+    background: #ede9cc;
+    max-width: 65%;
+    min-width: 850px;
+    margin: 0px auto 0px auto;
+}
+
+#container-baixo{
+    
+    max-width: 65%;
+    min-width: 850px;
+    margin: 10px auto 0px auto;
+    position: relative;
+    background: url(../imagens/bg-container.png) top center repeat-y;
+    
+    
+}
+
+#topo{
+    
+    width: 100%;
+    min-width: 850px;
+    min-height: 250px;
+    position: relative;
+}
+
+#area-logo{
+    background:#dbcd87 url(../imagens/topo-imagem-principal2.png)no-repeat;
+    width: 100%;
+    min-height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#area-menu{
+    background:  url(../imagens/topo-imagem-lateral.png)no-repeat;
+    min-height: 250px;
+    width: 450px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+
+#area-lateral{
+    width: 50%;
+    float: right;
+}
+
+#area-principal{
+    width: 50%;
+    float: left;
+}
+
+.conteudo{
+    margin: 0px auto;
+    width: 90%;
+}
+
+h3{
+    color: #aa9a4a;
+    margin: 10px 0 20px 0;
+}
+
+#rodape{
+    clear: both;
+}
+
+img{
+    width: 150px;
+    margin-top: 20px;
+    display: inline;
+}
+
+li a img{
+    float: left;
+    margin-right: 8px
+}
+
+li a p{
+
+    border-bottom: 1px solid #c7b663;
+}
+
+{
